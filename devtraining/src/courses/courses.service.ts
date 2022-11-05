@@ -17,6 +17,7 @@ export class CoursesService {
   // create(createCourseDto: CreateCourseDto) {
   create(createCourseDto: any) {
     this.courses.push(createCourseDto);
+    return createCourseDto;
     // return 'This action adds a new course';
   }
 
